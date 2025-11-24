@@ -581,6 +581,12 @@
   .p-30 {
     padding: calc(var(--spacing) * 30);
   }
+  .px-6 {
+    padding-inline: calc(var(--spacing) * 6);
+  }
+  .py-3 {
+    padding-block: calc(var(--spacing) * 3);
+  }
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -628,6 +634,9 @@
   .font-normal {
     --tw-font-weight: var(--font-weight-normal);
     font-weight: var(--font-weight-normal);
+  }
+  .text-black {
+    color: var(--color-black);
   }
   .text-blue-600 {
     color: var(--color-blue-600);
@@ -694,6 +703,11 @@
       display: flex;
     }
   }
+  .sm\:w-1\/2 {
+    @media (width >= 40rem) {
+      width: calc(1/2 * 100%);
+    }
+  }
   .sm\:w-11 {
     @media (width >= 40rem) {
       width: calc(var(--spacing) * 11);
@@ -717,6 +731,11 @@
   .sm\:w-150 {
     @media (width >= 40rem) {
       width: calc(var(--spacing) * 150);
+    }
+  }
+  .sm\:w-auto {
+    @media (width >= 40rem) {
+      width: auto;
     }
   }
   .sm\:flex-col {
