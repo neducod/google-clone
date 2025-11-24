@@ -267,6 +267,9 @@
   .flex {
     display: flex;
   }
+  .hidden {
+    display: none;
+  }
   .h-0\.5 {
     height: calc(var(--spacing) * 0.5);
   }
@@ -285,8 +288,17 @@
   .min-h-10 {
     min-height: calc(var(--spacing) * 10);
   }
+  .min-h-28 {
+    min-height: calc(var(--spacing) * 28);
+  }
+  .min-h-64 {
+    min-height: calc(var(--spacing) * 64);
+  }
   .min-h-min {
     min-height: min-content;
+  }
+  .w-0\.5 {
+    width: calc(var(--spacing) * 0.5);
   }
   .w-2\.5 {
     width: calc(var(--spacing) * 2.5);
@@ -432,6 +444,9 @@
   .justify-items-start {
     justify-items: start;
   }
+  .gap-1\.5 {
+    gap: calc(var(--spacing) * 1.5);
+  }
   .gap-2 {
     gap: calc(var(--spacing) * 2);
   }
@@ -521,8 +536,14 @@
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
+  .p-1\.5 {
+    padding: calc(var(--spacing) * 1.5);
+  }
   .p-2 {
     padding: calc(var(--spacing) * 2);
+  }
+  .p-2\.5 {
+    padding: calc(var(--spacing) * 2.5);
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
@@ -653,9 +674,24 @@
       display: flex;
     }
   }
+  .sm\:w-11 {
+    @media (width >= 40rem) {
+      width: calc(var(--spacing) * 11);
+    }
+  }
   .sm\:w-20 {
     @media (width >= 40rem) {
       width: calc(var(--spacing) * 20);
+    }
+  }
+  .sm\:w-100 {
+    @media (width >= 40rem) {
+      width: calc(var(--spacing) * 100);
+    }
+  }
+  .sm\:w-110 {
+    @media (width >= 40rem) {
+      width: calc(var(--spacing) * 110);
     }
   }
   .sm\:w-150 {
@@ -673,14 +709,34 @@
       flex-direction: row;
     }
   }
+  .sm\:items-center {
+    @media (width >= 40rem) {
+      align-items: center;
+    }
+  }
+  .sm\:justify-baseline {
+    @media (width >= 40rem) {
+      justify-content: baseline;
+    }
+  }
   .sm\:justify-center {
     @media (width >= 40rem) {
       justify-content: center;
     }
   }
+  .sm\:gap-3 {
+    @media (width >= 40rem) {
+      gap: calc(var(--spacing) * 3);
+    }
+  }
   .sm\:gap-15 {
     @media (width >= 40rem) {
       gap: calc(var(--spacing) * 15);
+    }
+  }
+  .sm\:gap-30 {
+    @media (width >= 40rem) {
+      gap: calc(var(--spacing) * 30);
     }
   }
   .sm\:p-2 {

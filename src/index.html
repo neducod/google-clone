@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-  <nav class="flex flex-col justify-baseline p-7 sm:flex-row sm:gap-15">
+  <nav class="flex flex-col sm:justify-baseline p-7 sm:flex-row sm:gap-15">
     <div>
         <img src="../assets/nav-image.png" alt="Google logo">
     </div>
@@ -20,7 +20,7 @@
         </ul>
     </div>
   </nav>
-  <div class="flex justify-center items-center gap-19 bg-gray-100 flex-col sm:flex-row">
+  <div class="hidden sm:flex justify-center items-center gap-19 bg-gray-100 flex-col sm:flex-row">
     <div class="flex gap-3 flex-col justify-items-start">
         <h1 class="text-2xl text-black-300 w-48 font-normal sm:w-150">Holiday shopping made easy with AI</h1>
         <p class="text-gray-500 text-base w-90">Get helpful shopping ideas from AI Mode and Gemini. Plus, with new agentic capabilities, Google can call nearby stores and even buy something for you when the price is right.</p>
@@ -31,7 +31,7 @@
         <img src="../assets/hero-image.png" alt="hero-image">
     </div>
   </div>
-  <div class="flex flex-col justify-center items-center gap-20 p-4 m-5">
+  <div class=" hidden sm:flex flex-col justify-center items-center gap-20 p-4 m-5">
     <div class="w-90 rounded-2xl flex gap-7 flex-col border border-solid border-gray-300">
         <img src="../assets/explore-two.png" alt="explore projects images" class="rounded-lg">
         <p class="text-xl text-gray-800">Explore our products and features across Search, Google Workspace <br> and more</p>
@@ -45,10 +45,10 @@
         <p class="text-xl text-gray-800">See how we are tackling some of the <br> most challenging problems in  <br>computer science</p>
     </div>
   </div>
-  <div class="flex justify-center items-center gap-30">
-    <div class="flex gap-3 flex-col">
-        <h2 class="text-4xl font-light w-100">Try these new AI features in Google Photos</h2>
-        <p class="font-normal text-gray-400 w-110">Transform images with Nano Banana, get more help from the new “Ask” button and make personalized edits — like removing sunglasses and fixing smiles.</p>
+  <div class="hidden sm:flex justify-center min-h-64 flex-col sm:items-center sm:gap-30 sm:flex-row">
+    <div class="flex gap-1.5 sm:gap-3 flex-col p-4">
+        <h2 class="text-2xl font-light w-100 sm:w-100 sm:text-4xl">Try these new AI features in Google Photos</h2>
+        <p class="font-normal text-gray-400 sm:w-110">Transform images with Nano Banana, get more help from the new “Ask” button and make personalized edits — like removing sunglasses and fixing smiles.</p>
         <button class="w-40 bg-blue-100 rounded-3xl p-2 text-blue-600">Get the picture</button>
     </div>
     <div>
@@ -56,14 +56,14 @@
     </div>
   </div>
 
-  <div class="flex flex-col gap-2 justify-center items-center bg-gray-100 p-5 sm:p-20">
+  <div class="hidden sm:flex flex-col gap-2 justify-center items-center bg-gray-100 p-5 sm:p-20">
     <img src="../assets/google-icon.png" alt="google icon image">
     <h2 class="text-xl font-extralight sm:text-6xl">Google around the globe</h2>
     <p class="text-gray-400 text-base sm:text-xl">Learn about Google's work and impact around the world.</p>
     <button class="w-30 text-white bg-blue-500 hover:bg-blue-600 p-2 rounded-3xl">Explore</button>
   </div>
 
-  <div class="flex flex-col p-20 gap-2 sm:flex-row justify-center items-center">
+  <div class="hidden sm:flex flex-col p-20 gap-2 sm:flex-row justify-center items-center">
     <img src="../assets/pixel drop image.png" alt="pixel drop image" class="hover:rounded-3xl">
     <div class="flex flex-col gap-2 p-3.5">
         <h2 class="text-2xl font-normal sm:text-4xl">Our latest Pixel Drop</h2>
@@ -72,7 +72,7 @@
     </div>
   </div>
 
-  <div class="flex justify-center p-2 flex-col bg-gray-100 min-h-10 min-w-3xs m-5 rounded-2xl">
+  <div class="hidden sm:flex justify-center p-2 flex-col bg-gray-100 min-h-10 min-w-3xs m-5 rounded-2xl">
     <div class="flex flex-col gap-3">
         <h2 class="text-3xl font-light">Get the latest news from Google in your inbox</h2>
         <p class="text-lg text-gray-500">Sign up to receive top stories from the week — from product announcements, to everyday tips.</p>
@@ -82,7 +82,7 @@
     </div>
   </div>
   
-  <footer class="flex flex-col gap-6 bg-gray-100 justify-start">
+  <footer class="hidden sm:flex flex-col gap-6 bg-gray-100 justify-start">
     <div class="flex flex-col justify-between p-14 gap-7">
       <div class="flex flex-row gap-3">
         <ul class="flex gap-2 flex-col">
