@@ -303,6 +303,9 @@
   .w-0\.5 {
     width: calc(var(--spacing) * 0.5);
   }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
   .w-2\.5 {
     width: calc(var(--spacing) * 2.5);
   }
