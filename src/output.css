@@ -738,6 +738,16 @@
       width: calc(1/2 * 100%);
     }
   }
+  .sm\:w-2 {
+    @media (width >= 40rem) {
+      width: calc(var(--spacing) * 2);
+    }
+  }
+  .sm\:w-2\/2 {
+    @media (width >= 40rem) {
+      width: calc(2/2 * 100%);
+    }
+  }
   .sm\:w-2\/3 {
     @media (width >= 40rem) {
       width: calc(2/3 * 100%);
