@@ -1,11 +1,10 @@
-  gsap.to(".box", { 
-    x: 800, 
-    opacity: 1, 
-    duration: 3 
-  });
-
-  gsap.from(".title", { 
-    y: -50, 
-    opacity: 0, 
-    duration: 5 
-  });
+            //ScrollTrigger Animation
+            gsap.from("#section", {
+              opacity: 0,
+              y: 100,
+              duration: 1,
+              scrollTrigger: {
+                  trigger: "#section",
+                  start: "top 80%",
+              }
+          });
